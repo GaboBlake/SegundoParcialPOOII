@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SegundoParcialPOOII
+build_property.RootNamespace = SegundoParcialPOOII
+build_property.ProjectDir = C:\Users\gabri\OneDrive\Documentos\POOII\SegundoParcialPOOII\SegundoParcialPOOII\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gabri\OneDrive\Documentos\POOII\SegundoParcialPOOII\SegundoParcialPOOII
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Juguete/AddJuguete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVndWV0ZVxBZGRKdWd1ZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Juguete/DeleteJuguete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVndWV0ZVxEZWxldGVKdWd1ZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Juguete/EditJuguete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVndWV0ZVxFZGl0SnVndWV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Juguete/JuguetesList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVndWV0ZVxKdWd1ZXRlc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Marca/AddMarcas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcQWRkTWFyY2FzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Marca/DeleteMarcas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGVsZXRlTWFyY2FzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Marca/EditMarcas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRWRpdE1hcmNhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Marca/MarcasList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcTWFyY2FzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SegundoParcialPOOII/SegundoParcialPOOII/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2bsutqt0y6

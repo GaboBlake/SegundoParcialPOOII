@@ -1,0 +1,39 @@
+@model List<MarcaModel>
+
+@{
+    ViewData["Title"] = "Listado de marcas";
+}
+
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-striped">
+    <thead>
+            <th scope="col">#</th>
+            <th scope="col">Código</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Activo</th>
+            
+           
+        </thead>
+    <tbody>
+@foreach (var marca in Model)
+{
+
+    <tr>
+        <td>@marca.Id</td>
+        <td>@marca.Codigo</td>
+        <td>@marca.Nombre</td>
+        <td>@marca.Activo</td>
+
+        <td>
+            <a class="btn btn-outline-info" asp-action="EditMarcas" asp-controller="Marca" asp-route-id="@marca.Id">Editar</a>
+            <a class="btn btn-outline-info" asp-action="DeleteMarcas" asp-controller="Marca" asp-route-id="@marca.Id">Borrar</a>
+        </td>
+    </tr>
+}
+    </tbody>
+    <tfoot></tfoot>
+</table>
+
+ <a class="btn btn-outline-info" asp-action="AddMarcas" asp-controller="Marca">Agregar Marca</a>

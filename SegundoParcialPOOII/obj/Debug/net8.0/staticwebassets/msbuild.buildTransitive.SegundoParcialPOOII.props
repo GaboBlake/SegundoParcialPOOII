@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SegundoParcialPOOII.props" />
+</Project>

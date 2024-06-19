@@ -1,0 +1,43 @@
+@model List<JugueteModel>
+
+@{
+    ViewData["Title"] = "Listado Juguetes";
+}
+
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-striped">
+    <thead>
+            <th scope="col">#</th>
+            <th scope="col">Código</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Vigencia</th>
+            <th scope="col">Activo</th>
+            
+           
+        </thead>
+    <tbody>
+@foreach (var juguete in Model)
+{
+
+    <tr>
+        <td>@juguete.Id</td>
+        <td>@juguete.Codigo</td>
+        <td>@juguete.Nombre</td>
+        <td>@juguete.Precio</td>
+        <td>@juguete.Vigencia</td>
+        <td>@juguete.Activo</td>
+
+        <td>
+            <a class="btn btn-outline-info" asp-action="EditJuguete" asp-controller="Juguete" asp-route-id="@juguete.Id">Editar</a>
+            <a class="btn btn-outline-info" asp-action="DeleteJuguete" asp-controller="Juguete" asp-route-id="@juguete.Id">Borrar</a>
+        </td>
+    </tr>
+}
+    </tbody>
+    <tfoot></tfoot>
+</table>
+
+ <a class="btn btn-outline-info" asp-action="AddJuguete" asp-controller="Juguete">Agregar visita</a>

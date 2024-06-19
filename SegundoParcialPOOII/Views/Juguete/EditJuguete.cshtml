@@ -1,0 +1,41 @@
+@model JugueteModel
+
+@{
+    ViewData["Title"] = "Edición de juguete";
+}
+
+<div class="text-center">
+    <h1 class="display-2"> Edición de juguete</h1>
+</div>
+
+<div asp-validation-summary="All" class="Text-danger"></div>
+
+<form asp-controller="Juguete" asp-action="EditJuguete">
+    <div class="mb-3">
+        <label asp-for="Codigo" class="form-label">Código del juguete  </label>
+        <input type="text" class="form-control" asp-for="Codigo" placeholder="Escriba el código del juguete" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Nombre" class="form-label">Nombre del juguete</label>
+        <input type="text" class="form-control" asp-for="Nombre" placeholder="Escriba el nombre del juguete" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Precio" class="form-label">Precio del juguete</label>
+        <input type="text" class="form-control" asp-for="Precio" placeholder="Escriba el precio del juguete" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Vigencia" class="form-label">Vigencia</label>
+        <input  id="datepicker" width="276" class="form-control" asp-for="Vigencia" placeholder="Escriba la vigencia del juguete" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Activo" class="form-label">Activo</label>
+        <input type="text" class="form-control" asp-for="Activo" placeholder="Seleccione si el juguete está activo para venta" />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+
+    <a asp-controller="Marca" asp-action="MarcasList" class="btn btn-secundary mb-3"> Regresar </a>
+
+</form>
